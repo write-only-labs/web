@@ -1584,6 +1584,7 @@ body.offcanvas .nav-toggle {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
+  padding: 5%;
 }
 
 #services .service .icon i {

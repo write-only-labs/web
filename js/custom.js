@@ -202,6 +202,7 @@
 
 
 	var menuactive = function () {
+		alert('hola');
 		$('#aside #main-menu ul li a').on('click', function (e) {
 			$('#aside #main-menu ul li.active').removeClass('active');
 			$(this).parent('li').addClass('active');
@@ -280,6 +281,8 @@
 		carusel_blog();
 		back_to_top();
 	});
+
+	menuactive();
 
 }());
 
